@@ -15,6 +15,17 @@
     {
       "matchCategories": ["java"],
       "matchPackageNames": ["com.google.guava:guava"],
+      "matchCurrentVersion": "!/-(jre|android)$/",
+      "allowedVersions": "/-jre$/",
+      "groupName": "all dependencies",
+      "groupSlug": "all",
+      "separateMajorMinor": false,
+      "dependencyDashboardApproval": false,
+      "enabled": true
+    },
+    {
+      "matchCategories": ["java"],
+      "matchPackageNames": ["com.google.guava:guava"],
       "matchCurrentVersion": "/-(jre|android)$/",
       "versionCompatibility": "^(?<version>[^-]+)(?<compatibility>-.*)?$",
       "extractVersion": "^(?<version>.*)(-(?<compatibility>.*))?$",
