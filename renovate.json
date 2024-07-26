@@ -16,6 +16,7 @@
       "matchCategories": ["java"],
       "matchPackageNames": ["com.google.guava:guava"],
       "versioning": "docker",
+      "allowedVersions": "!/\\-android$/",
       "groupName": "all dependencies",
       "groupSlug": "all",
       "separateMajorMinor": false,
