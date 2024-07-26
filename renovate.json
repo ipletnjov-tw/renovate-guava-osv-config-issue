@@ -15,7 +15,7 @@
     {
       "matchCategories": ["java"],
       "matchPackageNames": ["com.google.guava:guava"],
-      "extractVersion": "^(?<version>.*)-jre$",
+      "versioning": "docker",
       "groupName": "all dependencies",
       "groupSlug": "all",
       "separateMajorMinor": false,
