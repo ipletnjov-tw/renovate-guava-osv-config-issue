@@ -16,8 +16,6 @@
       "matchCategories": ["java"],
       "matchPackageNames": ["com.google.guava:guava"],
       "matchCurrentVersion": "!/-(jre|android)$/",
-      "versionCompatibility": "^(?<version>[^-]+)-jre?$",
-      "extractVersion": "^(?<version>[^-]+)(?<compatibility>-.*)?$",
       "allowedVersions": "/-jre$/",
       "groupName": "all dependencies",
       "groupSlug": "all",
