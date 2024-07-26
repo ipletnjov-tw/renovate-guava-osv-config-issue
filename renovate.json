@@ -14,8 +14,8 @@
   "packageRules": [
     {
       "matchCategories": ["java"],
-      "matchPackageNames": ["com.google.guava:guava"],
-      "versioning": "regex:^(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(-(?<compatibility>.*))?$",
+      "matchPackageNames": ["com.google.guava:guava"],      
+      "versionCompatibility": "^(?<version>[^-]+)(?<compatibility>-.*)?$",
       "extractVersion": "^(?<version>.*)(-(?<compatibility>.*))?$",
       "allowedVersions": "/-jre$/",
       "groupName": "all dependencies",
